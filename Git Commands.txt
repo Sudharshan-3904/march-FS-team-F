@@ -1,0 +1,40 @@
+Local Github COnfiguration:
+git config --global user.name "Your Username"         : Sets global username
+git config --global user.email "Your Email"           : Sets global email
+
+Cloning a repository:
+git clone "Your Repository"                           : Clones a repository
+
+Tracking Changes:
+git status                                            : Shows the status of the repository
+
+Staging Changes:
+git add "File Name"                                   : Adds a file to the staging area
+git add .                                             : Adds all files to the staging area
+
+Committing Changes:
+git commit -m "Commit Message"                        : Commits changes to the repository
+
+Pushing Changes:
+git push                                              : Pushes changes to the remote repository
+git push origin main                                  : Pushes changes to origin/main
+
+Pulling Changes:
+git pull                                              : Pulls changes from the remote repository
+git pull origin main                           `      : Pulls changes from origin/main
+
+Branching:
+git branch "Branch Name"                              : Creates a new branch
+
+Switching Branches:
+git checkout "Branch Name"                            : Creates a new branch in both local and remote
+git switch "Branch Name"                              : Creates only in local and not in remote
+
+Merging:
+git merge "Branch Name"                               : Merges the bach to the upper branch
+
+Adding Remote Repository:
+git remote add origin "Your Repository"               : Adds a remote repository
+
+Discarding Changes:
+git restore "File Name"                               : Discards changes to a file
