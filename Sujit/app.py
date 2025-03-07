@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 # Sample data
 data = [
-    {"ID": 1, "Name": "Alice"},
-    {"ID": 2, "Name": "Bob"},
-    {"ID": 3, "Name": "Charlie"}
+    {"ID": 1, "Name": "User 1"},
+    {"ID": 2, "Name": "User 2"},
+    {"ID": 3, "Name": "User 3"}
 ]
 
 @app.route('/get_ids', methods=['GET'])
